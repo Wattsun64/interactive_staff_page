@@ -1,0 +1,55 @@
+$main-color: #A6FDFF;
+$main-font: monospace;
+$card-color: #FFF;
+$card-content-bg: #DEDCDF;
+
+body {
+	background-color: $main-color;
+}
+
+.card {
+	position: relative;
+	width: 30%;
+	border-radius: 9px;
+	background-color: $card-color;
+	padding: 10px;
+	margin: 5px;
+	float: left;
+	transition: all 0.2s ease-in-out;
+
+	&:hover {
+		transform: translateY(-20px);
+	}
+
+	img {
+		width: 80%;
+		height: 80%;
+		margin-left: 10%;
+	}
+
+	.card-front{
+
+		.card-content {
+			padding: 10px;
+			background-color: $card-content-bg;
+			font-family: $main-font;
+			border-radius: 9px;
+
+		}	
+	}
+
+	.card-back {
+		background-color: $card-content-bg;
+		padding: 10px;
+		font-family: $main-font;
+		border-radius: 9px;
+		display: none;
+
+
+		.card-content {
+			padding: 10px;
+		}
+	}
+
+	
+}

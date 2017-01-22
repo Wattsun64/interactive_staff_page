@@ -1,0 +1,31 @@
+body {
+  background-color: #A6FDFF; }
+
+.card {
+  position: relative;
+  width: 30%;
+  border-radius: 9px;
+  background-color: #FFF;
+  padding: 10px;
+  margin: 5px;
+  float: left;
+  transition: all 0.2s ease-in-out; }
+  .card:hover {
+    transform: translateY(-20px); }
+  .card img {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%; }
+  .card .card-front .card-content {
+    padding: 10px;
+    background-color: #DEDCDF;
+    font-family: monospace;
+    border-radius: 9px; }
+  .card .card-back {
+    background-color: #DEDCDF;
+    padding: 10px;
+    font-family: monospace;
+    border-radius: 9px;
+    display: none; }
+    .card .card-back .card-content {
+      padding: 10px; }
