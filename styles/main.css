@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=News+Cycle|Nova+Mono|Overpass+Mono|Roboto+Mono|Rubik+Mono+One");
 body {
   background-color: #FEB48B; }
 
@@ -19,12 +20,12 @@ body {
   .card .card-front .card-content {
     padding: 10px;
     background-color: #DEDCDF;
-    font-family: monospace;
+    font-family: "Roboto Mono", "Rubik Mono One";
     border-radius: 9px; }
   .card .card-back {
     background-color: #DEDCDF;
     padding: 10px;
-    font-family: monospace;
+    font-family: "Roboto Mono", "Rubik Mono One";
     border-radius: 9px;
     display: none; }
     .card .card-back .card-content {
