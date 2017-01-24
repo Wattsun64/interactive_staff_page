@@ -24,9 +24,11 @@ html {
 		backface-visibility: hidden;
 		background-color: #F2836C;
 
-		.img-circle {
+		img {
 			position: relative;
-			left: 30%;
+		}
+
+		.img-circle {
 			border-radius: 50%;
 			border: 4px solid #fff;
 			background-color: #21F5EE;

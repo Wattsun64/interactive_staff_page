@@ -20,9 +20,9 @@ html {
     border: 4px solid #999;
     backface-visibility: hidden;
     background-color: #F2836C; }
+    .card .card__front img, .card .card__back img {
+      position: relative; }
     .card .card__front .img-circle, .card .card__back .img-circle {
-      position: relative;
-      left: 30%;
       border-radius: 50%;
       border: 4px solid #fff;
       background-color: #21F5EE;
