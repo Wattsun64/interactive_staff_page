@@ -1,0 +1,1 @@
+function flipCard(){var e=document.querySelectorAll(".card.effect__click");for(i=0;e.length;i++){var c=e[i];clickListener(c)}}function clickListener(i){i.addEventListener("click",function(){var i=this.classList;i.contains("flipped")===!0?i.remove("flipped"):i.add("flipped")})}flipCard();
