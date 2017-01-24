@@ -1,31 +1,41 @@
-body {
-  background-color: #A6FDFF; }
+@import 'https://fonts.googleapis.com/css?family=News+Cycle';
+html {
+  font-family: 'News Cycle'; }
 
 .card {
   position: relative;
-  width: 30%;
-  border-radius: 9px;
-  background-color: #FFF;
-  padding: 10px;
-  margin: 5px;
-  float: left;
-  transition: all 0.2s ease-in-out; }
-  .card:hover {
-    transform: translateY(-20px); }
-  .card img {
-    width: 80%;
-    height: 80%;
-    margin-left: 10%; }
-  .card .card-front .card-content {
+  width: 25%;
+  padding-bottom: 25%;
+  text-align: center;
+  left: 5%;
+  margin: 20px;
+  float: left; }
+  .card .card__front, .card .card__back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
     padding: 10px;
-    background-color: #DEDCDF;
-    font-family: monospace;
-    border-radius: 9px; }
-  .card .card-back {
-    background-color: #DEDCDF;
-    padding: 10px;
-    font-family: monospace;
+    transition: all 0.3s;
     border-radius: 9px;
-    display: none; }
-    .card .card-back .card-content {
-      padding: 10px; }
+    border: 4px solid #999;
+    backface-visibility: hidden;
+    background-color: #F2836C; }
+    .card .card__front .img-circle, .card .card__back .img-circle {
+      position: relative;
+      left: 30%;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      background-color: #21F5EE;
+      height: 40%;
+      width: 40%; }
+    .card .card__front .card__text, .card .card__back .card__text {
+      text-align: left; }
+  .card .card__back {
+    background-color: #7ECB89;
+    transform: rotateY(-180deg); }
+
+.card.effect__click.flipped .card__front, .card.effect__click.flipped .card__back {
+  transform: rotateY(-180deg); }
+
+.card.effect__click.flipped .card__back {
+  transform: rotateY(0); }
