@@ -1,0 +1,26 @@
+{
+  "name": "interactive_staff_page",
+  "version": "1.0.0",
+  "description": "Idea for a collective company staff bio page where the staff are placed in \"cards\" with generic info on the front, and on the back is a more detailed bio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wattsun64/interactive_staff_page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wattsun64/interactive_staff_page/issues"
+  },
+  "homepage": "https://github.com/Wattsun64/interactive_staff_page#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.0"
+  }
+}
